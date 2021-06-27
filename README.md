@@ -1,6 +1,11 @@
 # colleges.chat
 
-This repo contains source code of the website.
+This repo contains source code of [colleges.chat](https://colleges.chat).
+
+## Deployment
+
+The commits in branch `main` will be automatically generated a preview version.
+The commits in branch `deploy` will be automatically deployed to [colleges.chat](https://colleges.chat), so please make sure the preview in branch `main` is correct before merged.
 
 ## Environment
 
