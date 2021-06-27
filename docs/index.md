@@ -1,6 +1,6 @@
 ## 这是什么项目？
 
-这是一个受 https://t.me/RiNGNiR/3571 和 https://t.me/RiNGNiR/3572 启发的一个项目，意在收集全国各高校招生时不会写明，却会实实在在影响大学生活质量的要求与细节。
+这是一个由 Telegram 频道发起的调查[\[1\]](https://t.me/RiNGNiR/3571) [\[2\]](https://t.me/RiNGNiR/3572) 启发的资料汇总项目，意在收集全世界各高校招生时不会写明但实实在在影响大学生活质量的详尽信息。
 
 ## 查询 & 贡献 & 提问
 贡献、提问、部分资料查询请前往 [Discussions](https://github.com/CollegesChat/university-information/discussions)
