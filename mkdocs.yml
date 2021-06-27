@@ -6,7 +6,7 @@ site_url: https://colleges.chat
 # Repository
 repo_name: CollegesChat/colleges.chat
 repo_url: https://github.com/CollegesChat/colleges.chat
-edit_url: edit/main/docs/
+edit_uri: edit/main/docs/
 
 # Copyright
 copyright: CC BY-NC-SA 4.0
