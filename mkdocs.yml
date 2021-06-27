@@ -1,0 +1,43 @@
+# Project information
+site_name: 大学生活质量指北
+site_description: 收集全国各高校招生时不会写明，却会实实在在影响大学生活质量的要求与细节
+site_url: https://colleges.chat
+
+# Repository
+repo_name: CollegesChat/colleges.chat
+repo_url: https://github.com/CollegesChat/colleges.chat
+
+# Copyright
+copyright: CC BY-NC-SA 4.0
+
+# Configuration
+theme:
+  name: material
+  language: zh
+  logo: assets/images/favicon.png
+  favicon: assets/images/favicon.png
+  palette:
+    primary: blue
+    accent: blue
+  icon:
+    repo: fontawesome/brands/github
+  font:
+    text: Roboto
+    code: Roboto Mono
+  features:
+    - instant
+
+# Extensions
+markdown_extensions:
+  - admonition
+  - codehilite
+  - footnotes
+  - pymdownx.superfences
+  - markdown.extensions.def_list
+  - meta
+  - toc:
+      permalink: true
+
+plugins:
+  - search
+  - awesome-pages
