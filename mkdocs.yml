@@ -28,6 +28,13 @@ theme:
   features:
     - instant
 
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/CollegesChat
+    - icon: fontawesome/brands/telegram
+      link: https://t.me/joinchat/NPiGbd9ODe0wYjQ1
+
 # Extensions
 markdown_extensions:
   - admonition
@@ -42,7 +49,7 @@ markdown_extensions:
 plugins:
   - search
   - awesome-pages
-  - git-revision-date-localized
+  - git-revision-date-localized:
       type: iso_datetime
       time_zone: Asia/Shanghai
       locale: zh
