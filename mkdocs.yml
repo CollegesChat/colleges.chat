@@ -51,6 +51,5 @@ plugins:
   - awesome-pages
   - git-revision-date-localized:
       type: iso_datetime
-      time_zone: Asia/Shanghai
       locale: zh
       fallback_to_build_date: true
