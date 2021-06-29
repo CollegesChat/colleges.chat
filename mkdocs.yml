@@ -1059,7 +1059,7 @@ markdown_extensions:
 
 plugins:
   - search:
-      lang: jp
+      lang: ja
       indexing: sections
       min_search_length: 2
   - awesome-pages
