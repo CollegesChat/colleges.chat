@@ -1038,7 +1038,6 @@ theme:
     code: Roboto Mono
   features:
     - instant
-  search_index_only: true
 
 extra:
   social:
@@ -1046,8 +1045,6 @@ extra:
       link: https://github.com/CollegesChat
     - icon: fontawesome/brands/telegram
       link: https://t.me/joinchat/NPiGbd9ODe0wYjQ1
-  search:
-    language: 'jp'
 
 # Extensions
 markdown_extensions:
@@ -1061,5 +1058,8 @@ markdown_extensions:
       permalink: true
 
 plugins:
-  - search
+  - search:
+      lang: jp
+      indexing: sections
+      min_search_length: 2
   - awesome-pages
