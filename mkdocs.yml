@@ -1058,5 +1058,8 @@ markdown_extensions:
       permalink: true
 
 plugins:
-  - search
+  - search:
+      lang: ja
+      indexing: sections
+      min_search_length: 2
   - awesome-pages
