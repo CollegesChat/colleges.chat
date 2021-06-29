@@ -1060,6 +1060,6 @@ markdown_extensions:
 plugins:
   - search:
       lang: ja
-      indexing: sections
+      indexing: titles
       min_search_length: 2
   - awesome-pages
