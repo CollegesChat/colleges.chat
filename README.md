@@ -20,7 +20,7 @@ Tested on Python 3.7 and Python 3.8.
 
 **DO NOT DIRECTLY SUBMIT YOUR ANSWERS TO THIS REPO!!!!**
 
-If you want to contribute to the content, please submit to forms, URL: https://www.wenjuan.com/s/UZBZJv8lWrd/ . 
+If you want to contribute to the content, please submit to forms, URL: [https://www.wenjuan.com/s/UZBZJv8lWrd/](https://submit.colleges.chat/) . 
 Directly submit your answers to this repo will be immediately closed.
 
 ## Reporting Bugs and Suggesting Enhancements
