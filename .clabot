@@ -1,0 +1,6 @@
+{
+  "contributors": "https://api.github.com/repos/CollegesChat/colleges.chat/contributors",
+  "message": "在提交您的合并请求之前，请先签署 CLA，并再次确认您提交的内容不包括页面新增或页面内容修改、问卷提交或修改。",
+  "label": "cla-present",
+  "recheckComment": "RecheckCLA"
+}
