@@ -2,8 +2,7 @@
 
 This repo contains source code of [colleges.chat](https://colleges.chat).
 
-## 此仓库不适用于问卷提交或修改！
-## 问卷以外的页面新增或页面内容修改，请前往 [CollegesChat/university-information](https://github.com/CollegesChat/university-information/tree/master/questionnaires/site/docs) 提交 PR！
+## 此仓库内容均由程序自动生成，任何修改请前往 [CollegesChat/university-information](https://github.com/CollegesChat/university-information) 提交 PR！
 
 ## Deployment
 

@@ -1,0 +1,44 @@
+name: Generate Page
+
+on:
+  push:
+    branches:
+    - deploy
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    env:
+      workpath: ./
+
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Set up Python 3.9
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.9
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+      working-directory: ${{ env.workpath }}
+    
+    - name: Checkout
+      uses: actions/checkout@v2
+
+    - name: Generate page
+      run: mkdocs build
+      working-directory: ${{ env.workpath }}
+
+    - name: Push generated page
+      uses: stefanzweifel/git-auto-commit-action@v4
+      with:
+        branch: page
+        repository: dist
+        commit_options: '--allow-empty'
+        commit_message: |
+          update generated page
+          Triggered by ${{ github.sha }}
