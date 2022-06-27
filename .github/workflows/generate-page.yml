@@ -26,8 +26,11 @@ jobs:
         pip install -r requirements.txt
       working-directory: ${{ env.workpath }}
     
-    - name: Checkout
+    - name: Checkout old dist
       uses: actions/checkout@v2
+      with:
+        ref: 'page'
+        path: site
 
     - name: Generate page
       run: mkdocs build
