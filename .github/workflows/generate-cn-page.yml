@@ -1,4 +1,4 @@
-name: Generate Page
+name: Generate CN Page
 
 on:
   push:
@@ -26,8 +26,15 @@ jobs:
         pip install -r requirements.txt
       working-directory: ${{ env.workpath }}
     
-    - name: Checkout
+    - name: Checkout old dist
       uses: actions/checkout@v2
+      with:
+        ref: 'page'
+        path: site
+
+    - name: Modify Site URL
+      run: |
+        sed -i "s/colleges.chat/cn.colleges.chat/g" mkdocs.yml
 
     - name: Generate page
       run: mkdocs build
