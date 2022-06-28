@@ -47,6 +47,11 @@ jobs:
         gzip -r -k -9 site/assets
         gzip -r -k -9 site/choose-a-college
         gzip -r -k -9 site/search
+      
+    - name: Add robots.txt
+      working-directory: ${{ env.workpath }}
+      run: |
+        echo Disallow: / > site/robots.txt
 
     - name: Push generated page
       uses: stefanzweifel/git-auto-commit-action@v4
