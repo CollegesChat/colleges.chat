@@ -36,10 +36,6 @@ jobs:
       run: |
         sed -i "s/colleges.chat/cn.colleges.chat/g" mkdocs.yml
 
-    - name: Add Cloudflare Web Analytics
-      run: |
-        sed -i "s/copyright: /copyright: <script defer src='https:\/\/static.cloudflareinsights.com\/beacon.min.js' data-cf-beacon='{\"token\": \"5f330e993b3849818e0e9c10115937bd\"}'><\/script>/g" mkdocs.yml
-
     - name: Generate page
       run: mkdocs build
       working-directory: ${{ env.workpath }}
