@@ -54,7 +54,7 @@ jobs:
         echo Disallow: / > site/robots.txt
 
     - name: Push generated page
-      uses: stefanzweifel/git-auto-commit-action@v4
+      uses: stefanzweifel/git-auto-commit-action@v6
       with:
         branch: page
         repository: site
