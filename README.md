@@ -29,6 +29,6 @@ Please use the Issues of this project to submit bugs and suggestions. Please spe
 ## License
 
 CollegesChat Group and any contributors grant you a license to this documentation and other content
-in this repository under the [Creative Commons Attribution 4.0 International Public License](https://creativecommons.org/licenses/by/4.0/legalcode),
+in this repository under the [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh-Hans),
 see the [LICENSE](LICENSE) file, and grant you a license to any code in the repository under the [BSD 2-Clause "Simplified" License](https://opensource.org/licenses/BSD-2-Clause), see the
 [LICENSE-CODE](LICENSE-CODE) file.
